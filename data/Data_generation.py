@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import List, Dict, Optional
 
 # ===================== 配置区 =====================
-API_KEY = "sk-656f757b35fb4a56bcc5d921cd8e8da1" 
+API_KEY = "" 
 API_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 MODEL_NAME = "qwen-vl-plus"
 

@@ -3,4 +3,14 @@ __pycache__/
 *.bak
 *.log
 .env
+# Model weights
+weight/*.bin
+weight/*.pth
+weight/*.pt
+weight/*/*.bin
+weight/*/*.pth
+weight/*/*.pt
+weight/*/*/*.bin
+weight/*/*/*.pth
+weight/*/*/*.pt
 
