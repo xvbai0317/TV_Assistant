@@ -231,14 +231,14 @@ class QwenSelfValidator:
 
 def main():
     # 配置路径
-    json_path = "1.json"
+    json_path = "test/test1/test_data.json"
     model_path = "/root/autodl-tmp/cache/qwen/Qwen2.5-VL-7B-Instruct"
-    output_path = "validation_results.json"
+    output_path = "test/test1/validation_results.json"
     
     # 检查文件是否存在
     if not os.path.exists(json_path):
         print(f"错误: 找不到文件 {json_path}")
-        print("请确保1.json存在于当前目录")
+        print("请确保test_data.json存在于当前目录")
         return
     
     if not os.path.exists(model_path):
