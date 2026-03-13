@@ -176,7 +176,7 @@ class ValidationResult:
 
 class QwenStyleValidator:
     def __init__(self, 
-                 model_path: str = "/root/autodl-tmp/cache/qwen/Qwen2.5-VL-7B-Instruct",
+                 model_path: str = "/root/autodl-tmp/TV_Assistant/train/LlamaFactory/saves/TV_sft_merged",
                  style_config: Optional[StyleConfig] = None):
         """
         初始化模型和风格配置
@@ -495,8 +495,8 @@ def create_custom_style() -> StyleConfig:
 
 def main():
     # 配置
-    json_path = "1.json"
-    model_path = "/root/autodl-tmp/cache/qwen/Qwen2.5-VL-7B-Instruct"
+    json_path = "/root/autodl-tmp/TV_Assistant/experiment/test/test2/test_data.json"
+    model_path = "/root/autodl-tmp/TV_Assistant/train/LlamaFactory/saves/TV_sft_merged"
     
     # 检查文件
     if not os.path.exists(json_path):
@@ -508,7 +508,8 @@ def main():
     
     # 选择风格
     print_style_menu()
-    choice = input("请选择风格类型 (1-6): ").strip()
+    # choice = input("请选择风格类型 (1-6): ").strip()
+    choice = "6"
     
     style_map = {
         "1": StyleType.ACADEMIC,
@@ -519,13 +520,14 @@ def main():
         "6": StyleType.FRIENDLY
     }
     
-    if choice == "6" or choice not in style_map:
+    if choice == "7" or choice not in style_map:
         style_config = create_custom_style()
     else:
         style_config = STYLE_LIBRARY[style_map[choice]]
     
     # 是否强制生成时遵循风格
-    enforce = input("\n是否强制模型在生成时遵循该风格? (y/n, 默认y): ").strip().lower() != "n"
+    # enforce = input("\n是否强制模型在生成时遵循该风格? (y/n, 默认y): ").strip().lower() != "n"
+    enforce = True
     
     # 初始化验证器
     validator = QwenStyleValidator(model_path, style_config)

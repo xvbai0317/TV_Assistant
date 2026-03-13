@@ -7,7 +7,7 @@ from typing import List, Dict, Tuple
 from tqdm import tqdm
 
 class QwenSelfValidator:
-    def __init__(self, model_path: str = "/root/autodl-tmp/cache/qwen/Qwen2.5-VL-7B-Instruct"):
+    def __init__(self, model_path: str = "/root/autodl-tmp/TV_Assistant/train/LlamaFactory/saves/TV_sft_merged"):
         """
         初始化模型和处理器
         """
@@ -231,9 +231,9 @@ class QwenSelfValidator:
 
 def main():
     # 配置路径
-    json_path = "test/test1/test_data.json"
-    model_path = "/root/autodl-tmp/cache/qwen/Qwen2.5-VL-7B-Instruct"
-    output_path = "test/test1/validation_results.json"
+    json_path = "test/test2/test_data.json"
+    model_path = "/root/autodl-tmp/TV_Assistant/train/LlamaFactory/saves/TV_sft_merged"
+    output_path = "test/test2/validation_results.json"
     
     # 检查文件是否存在
     if not os.path.exists(json_path):

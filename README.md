@@ -14,17 +14,25 @@ TV_Assistant/
 │   │   ├── 科普百科.json           # 科普百科QA数据集
 │   │   ├── 生活方式建议.json        # 生活方式建议QA数据集
 │   │   ├── 娱乐八卦与行业资讯.json    # 娱乐八卦QA数据集
-│   │   └── 幽默段子与脑筋急转弯.json   # 幽默段子QA数据集
-│   ├── qa_datasets/       # 原始QA数据集
+│   │   ├── 幽默段子与脑筋急转弯.json   # 幽默段子QA数据集
+│   │   └── 各种类型_sharegpt.json   # 转换为ShareGPT格式的数据集
 │   ├── Data_generation.py        # 数据生成脚本
-│   ├── generate_500_movie_qa.py  # 生成影视评论数据集脚本
 │   ├── convert_to_sharegpt.py    # ShareGPT格式转换脚本
 │   ├── batch_convert_to_sharegpt.py  # 批量转换脚本
 │   └── check_conversion.py       # 转换结果检查脚本
 ├── train/                 # 模型训练目录
-│   └── LlamaFactory/      # LLaMA Factory 训练框架
+│   ├── README.md          # 训练说明文档
+│   ├── lora/              # LORA训练配置
+│   │   └── qwen2vl_lora_sft.yaml    # Qwen2VL LORA训练配置文件
+│   └── merge_lora/        # LORA合并配置
+│       └── qwen2vl_lora_sft_merge.yaml  # Qwen2VL LORA合并配置文件
+├── experiment/            # 实验验证目录
+│   ├── accuracy_verification_experiment.py  # 准确性验证实验
+│   ├── style_verification_experiment.py     # 风格验证实验
+│   └── test/              # 测试数据目录
 ├── weight/                # 模型权重目录
-│   └── download_model.py  # 模型下载脚本
+│   └── Qwen/              # Qwen模型相关
+│       └── download_model.py  # 模型下载脚本
 └── README.md              # 项目说明文档
 ```
 
@@ -44,10 +52,19 @@ TV_Assistant/
 - 集成 [LLaMA Factory](https://github.com/hiyouga/LlamaFactory.git) 框架
 - 支持100+大语言模型和多模态模型的微调
 - 支持多种微调方法：SFT、DPO、PPO、ORPO等
+- **`train/lora/`**: 存放LORA训练配置文件
+- **`train/merge_lora/`**: 存放LORA合并配置文件
 
 ### 4. 模型权重管理
-- **`download_model.py`**: 用于下载预训练模型权重
+- **`weight/Qwen/download_model.py`**: 用于下载预训练模型权重
 - 支持从ModelScope、Hugging Face等平台下载
+- 按模型类型分类存放权重文件
+
+### 5. 实验验证
+- **`accuracy_verification_experiment.py`**: 用于验证模型回答的准确性
+- **`style_verification_experiment.py`**: 用于验证模型回答的风格一致性
+- 支持多种预定义风格：学术严谨、简洁明了、创意生动、商务专业、技术详细、友好亲切等
+- 支持自定义风格验证
 
 ## 数据集说明
 
@@ -98,16 +115,41 @@ python download_model.py
 ### 5. 模型训练
 
 ```bash
-cd ../train/LlamaFactory
-# 参考 LLaMA Factory 文档进行模型训练
+# 使用 LLaMA Factory 进行 SFT 训练
+cd ../train
+# 参考 LLaMA Factory 文档，使用 lora 目录下的配置文件
+python -m llamafactory.train --config lora/qwen2vl_lora_sft.yaml
+```
+
+### 6. LORA 模型合并
+
+```bash
+cd train
+# 使用 merge_lora 目录下的配置文件合并模型
+python -m llamafactory.train --config merge_lora/qwen2vl_lora_sft_merge.yaml
+```
+
+### 7. 实验验证
+
+```bash
+cd ../experiment
+# 运行风格验证实验
+python style_verification_experiment.py --json-path ../data/dataset/历史人文.json --model-path /path/to/your/model
+
+# 使用命令行参数自定义配置
+python style_verification_experiment.py --help
 ```
 
 ## 技术栈
 
 - **Python**: 3.8+
 - **LLaMA Factory**: 用于模型微调
+- **Transformers**: 用于加载和使用预训练模型
+- **PyTorch**: 深度学习框架
+- **tqdm**: 进度条显示
 - **JSON**: 数据集格式
 - **Git**: 版本控制
+- **argparse**: 命令行参数解析
 
 ## 模型支持
 
