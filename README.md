@@ -1,3 +1,5 @@
+![多模态模型对比图](experiment/multimodal_models_comparison.png)
+
 # TV_Assistant - 智能电视助手项目
 
 TV_Assistant 是一个专为智能电视设计的AI助手项目，提供多种功能模块，包括历史人文、影视评论、情感陪伴等。该项目包含数据集生成、模型训练和推理服务等完整流程。
