@@ -1,0 +1,2828 @@
+{
+  "statistics": {
+    "total_items": 400,
+    "content_accuracy": {
+      "mean": 8.0,
+      "description": "内容事实准确度 (0-10)"
+    },
+    "interaction_fit": {
+      "mean": 4.92,
+      "description": "交互画像拟合度 (0-10)"
+    },
+    "rule_compliance": {
+      "mean": 8.24,
+      "description": "显式规则遵循度 (0-10)"
+    },
+    "diversity_safety": {
+      "mean": 9.89,
+      "description": "多样性与安全 (0-10)"
+    },
+    "overall_score": {
+      "mean": 7.76,
+      "std": 1.18,
+      "description": "综合平均分 (0-10)"
+    }
+  },
+  "individual_results": [
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 4.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.45
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.5,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.88
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 3.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 7.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.45
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.7
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.45
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 7.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 4.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 0.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 7.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 4.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 10.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 7.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.5,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.38
+    },
+    {
+      "content_accuracy": 3.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 5.0,
+      "overall_score": 5.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 3.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 4.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.45
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 4.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.25
+    },
+    {
+      "content_accuracy": 0.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.5,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.38
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 5.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 4.75
+    },
+    {
+      "content_accuracy": 0.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 0.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.45
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.5,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.88
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.45
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.5,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.88
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 4.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 2.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 8.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 0.0,
+      "interaction_fit": 3.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 5.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 0.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.0
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 5.0,
+      "diversity_safety": 10.0,
+      "overall_score": 6.5
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.75
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 9.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.5
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 9.0,
+      "interaction_fit": 8.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 9.25
+    },
+    {
+      "content_accuracy": 9.8,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.95
+    },
+    {
+      "content_accuracy": 8.0,
+      "interaction_fit": 2.0,
+      "rule_compliance": 10.0,
+      "diversity_safety": 10.0,
+      "overall_score": 7.5
+    }
+  ]
+}
